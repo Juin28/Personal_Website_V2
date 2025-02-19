@@ -1,0 +1,103 @@
+.experience-container {
+    display: flex;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.companies-list {
+    min-width: 200px;
+    border-left: 2px solid #233554;
+}
+
+.light .companies-list {
+    border-left-color: #e9f5ff;
+}
+
+.company-item {
+    padding: 15px 25px;
+    cursor: pointer;
+    font-family: monospace;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    position: relative;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.company-item:hover {
+    color: #64ffda;
+    background-color: #112240;
+}
+
+.company-item.active {
+    color: #64ffda;
+    background-color: #112240;
+}
+
+.company-item.active::before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    height: 100%;
+    width: 2px;
+    background-color: #64ffda;
+    top: 0;
+}
+
+.light .company-item:hover {
+    color: #005f73;
+    background-color: #e0f7fa; 
+}
+
+.light .company-item.active {
+    color: #005f73; 
+    background-color: #e0f7fa; 
+}
+
+.light .company-item.active::before {
+    background-color: #005f73; 
+} 
+
+.experience-details {
+    flex: 1;
+    min-width: 60%;
+}
+
+.details-content h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-family: monospace;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.details-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details-content li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.details-content li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #64ffda;
+}
+
+.light .details-content li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #023529;
+}
