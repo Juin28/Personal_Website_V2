@@ -1,0 +1,31 @@
+.awards-list {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.award-item {
+    border: 1px solid #1a1a2e;
+    border-radius: 8px; 
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.dark .award-item {
+    border: 1px solid #c4c4ff;
+}
+
+.award-item:hover {
+    transform: translateY(-5px);
+}
+
+.award-title {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.award-organization {
+    font-size: 1rem;
+    margin: 5px 0;
+}
