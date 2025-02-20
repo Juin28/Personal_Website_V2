@@ -40,3 +40,21 @@
     font-size: 0.9rem;
     margin: 5px 0;
 }
+
+@media (max-width: 600px) {
+    .certificates-list {
+        width: 100%;
+    }
+
+    .certificate-card {
+        padding: 15px;
+    }
+
+    .certificate-title {
+        font-size: 1rem;
+    }
+
+    .certificate-organization {
+        font-size: 0.8rem;
+    }
+}

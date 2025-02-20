@@ -9,9 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  esbuild: {
-    loader: {
-      '.js': 'jsx', 
-    }
-  },
+  base: "/Personal_Website_V2",
 })
