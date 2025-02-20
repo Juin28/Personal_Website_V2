@@ -101,3 +101,34 @@
     left: 0;
     color: #023529;
 }
+
+@media (max-width: 600px) {
+    .experience-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .companies-list {
+        border-left: none;
+    }
+
+    .company-item {
+        padding: 15px 20px;
+    }
+
+    .details-content h2 {
+        font-size: 20px;
+    }
+
+    .date {
+        font-size: 12px;
+    }
+
+    .details-content li::before {
+        font-size: 10px;
+    }
+
+    .details-content li {
+        font-size: 14px;
+    }
+}

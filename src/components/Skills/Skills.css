@@ -14,3 +14,14 @@
 .skills__category {
   margin-bottom: 2em;
 }
+
+@media (max-width: 600px) {
+  .skills__category h3 {
+    font-size: 1.1rem;
+  }
+
+  .skills__list .btn--plain {
+    margin: 0.3em;
+    font-size: 12px; 
+  }
+}

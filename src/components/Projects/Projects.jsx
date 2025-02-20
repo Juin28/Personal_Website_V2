@@ -48,6 +48,7 @@ export default function Projects() {
         className='btn btn--outline projects__btn'
         type='button'
         onClick={() => {
+          if (showAll) setSelectedCategory('All')
           setShowAll(!showAll)
           setButtonWord(showAll ? "Show More" : "Show Less")
         }}

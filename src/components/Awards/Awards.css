@@ -29,3 +29,17 @@
     font-size: 1rem;
     margin: 5px 0;
 }
+
+@media (max-width: 600px) {
+    .award-item {
+        padding: 12px;
+    }
+
+    .award-title {
+        font-size: 0.9rem;
+    }
+
+    .award-organization {
+        font-size: 0.7rem;
+    }
+}

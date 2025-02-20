@@ -41,3 +41,26 @@
 .projects__category-btn:not(.active):hover {
   background-color: #e0e0e0; 
 }
+
+@media (max-width: 600px) {
+  .projects__grid {
+    max-width: 85%;
+    grid-template-columns: 1fr;
+  }
+
+  .projects__categories {
+    display: flex;             
+    overflow-x: auto;           
+    white-space: nowrap;         
+    padding: 10px;               
+    width: 100vw;                 
+    box-sizing: border-box;      
+    justify-content: flex-start;
+  }
+
+  .projects__category-btn {
+    flex: 0 0 auto;              
+    margin-right: 10px;         
+    padding: 10px 20px;         
+  }
+}
