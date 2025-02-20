@@ -205,26 +205,6 @@ const awards = [
     organization: "Cambridge Assessment International Education",
   },
   {
-    title: "Honorable Mention in International Mathematical Olympiad National Selection Test 2021",
-    organization: "Malaysian International Mathematical Olympiad (IMO)",
-  },
-  {
-    title: "Gold Medalist of British Biology Olympiad",
-    organization: "United Kingdom Biology Competitions",
-  },
-  {
-    title: "Candidate of Malaysian Training Camp for International Chemistry Olympiad 2022",
-    organization: "Malaysian International Chemistry Olympiad",
-  },
-  {
-    title: "High Distinction in Malaysian National Chemistry Quiz (K3M) 2021",
-    organization: "Malaysian Institute of Chemistry",
-  },
-  {
-    title: "Champion of ACCA-MMU National Accounting Quiz",
-    organization: "ACCA Malaysia & Multimedia University",
-  },
-  {
     title: "Champion of Taekwondo Open Championship 2015 and 2017",
     organization: "Malaysian Taekwondo Association (CHITF)",
   }
